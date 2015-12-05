@@ -1,9 +1,9 @@
 idea:
     build: .
     labels:
-        org.kurron.description: "Charles Proxy"
-        org.kurron.version: "3.11.2"
-    container_name: "charles"
+        org.kurron.description: "DbVisualizer"
+        org.kurron.version: "9.2.13"
+    container_name: "dbvisualizer"
     net: "host"
     volumes:
         - /tmp/.X11-unix:/tmp/.X11-unix

@@ -1,5 +1,5 @@
 #Overview
-This project is a simple Docker image that runs the [Charles Proxy](http://www.charlesproxy.com/).
+This project is a simple Docker image that runs the [DbVisualer](http://www.dbvis.com/) SQL IDE.
 
 #Prerequisites
 * a working [Docker](http://docker.io) engine
@@ -27,9 +27,6 @@ to save files in your home directory and keep the proper permissions.
 ##X-Windows
 If the image complains that it cannot connect to your X server, simply run `xhost +` to allow the container to connect 
 to your X server.
-
-##Firefox Plug-In
-TODO
 
 #License and Credits
 This project is licensed under the [Apache License Version 2.0, January 2004](http://www.apache.org/licenses/).
